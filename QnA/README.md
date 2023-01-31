@@ -58,7 +58,12 @@
      used next time.
 
 
-
+## Troubleshoot
+- MacOS
+    - Unshuttable window (Cf. <https://github.com/docker/for-mac/issues/5037>)  
+      [!figs/unshuttable_window.png]  
+        
+      This command works for me: `killall Docker && open -a /Applications/Docker.app`
 
 
 
